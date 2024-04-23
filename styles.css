@@ -289,3 +289,45 @@ span#main-name {
     width: calc(100% + 8px)
   }
 }
+
+/* Contact section */
+.contact {
+  background-color: var(--bg-color);
+}
+
+.contact h2 {
+  margin-bottom: 3rem;
+}
+
+.contact form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: var(--font-color);
+  background: var(--bg-color);
+  border-radius: 1rem;
+  border: 2px solid var(--main-color);
+  margin: 1.5rem 0;
+  resize: none;
+}
+
+.contact form .btn {
+  margin-top: 2rem;
+}
+
