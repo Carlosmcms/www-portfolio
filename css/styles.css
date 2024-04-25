@@ -102,19 +102,6 @@ span#main-name {
   color: var(--main-color);
 }
 
-.home-content h1 {
-  font-size: 7rem;
-  font-weight: 700;
-  margin-top: 1.5rem;
-  line-height: 1;
-}
-
-.home-content h3 {
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  font-size: 3.5rem;
-}
-
 .my-photo {
   border-radius: 50%;
 }
@@ -257,11 +244,11 @@ span#main-name {
 
 /* Contact section */
 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--bg-color);
-}
-
-.contact h2 {
-  margin-bottom: 3rem;
 }
 
 .contact form {
