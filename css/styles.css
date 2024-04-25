@@ -111,13 +111,6 @@ section {
   transition: 0.3s ease-in-out;
 }
 
-.home-content p {
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.8;
-  max-width: 1000px;
-}
-
 .my-photo img:hover {
   box-shadow: 0 0 15px var(--main-color),
               0 0 30px var(--main-color),
@@ -236,6 +229,22 @@ section {
   85% {
     width: calc(100% + 8px)
   }
+}
+
+/* Education section */
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formal-education {
+  margin-top: 1.5rem;
+}
+.certs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
 }
 
 /* Contact section */

@@ -1,3 +1,6 @@
+h1, h2, h3, h4, p {
+  color: var(--font-color);
+}
 h1 {
   font-size: 7rem;
   font-weight: 700;
@@ -7,12 +10,27 @@ h1 {
 h2 {
   margin-bottom: 3rem;
   font-size: 5rem;
-  color: var(--font-color);
 }
 h3 {
   margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 3.5rem;
+}
+h4 {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+h5 {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8;
+  max-width: 1000px;
 }
 span {
   color: var(--main-color);
