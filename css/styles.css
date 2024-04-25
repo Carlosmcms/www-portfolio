@@ -98,10 +98,6 @@ section {
   margin-top: 3rem;
 }
 
-span#main-name {
-  color: var(--main-color);
-}
-
 .my-photo {
   border-radius: 50%;
 }
