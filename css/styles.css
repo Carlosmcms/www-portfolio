@@ -1,6 +1,6 @@
 :root {
-  --bg-color: #051d24;
-  --bg-color-sec: #1b7d95;
+  --bg-color: #0d1f24;
+  --bg-color-sec: #051b21;
   --main-color: #ff4500;
   --font-color: #ffffffdc;
 }
@@ -32,7 +32,7 @@ body {
   left: 0;
   width: 100%;
   padding: 4rem 12% 4rem;
-  background: var(--bg-color);
+  background: var(--bg-color-sec);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -140,41 +140,6 @@ span#main-name {
               0 0 30px var(--main-color),
               0 0 45px var(--main-color);
   transition: 0.3s ease-in-out;
-}
-
-.social-icons a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 4.5rem;
-  height: 4.5rem;
-  background: transparent;
-  border: 2px solid var(--main-color);
-  font-size: 2.5rem;
-  border-radius: 50%;
-  color:var(--main-color);
-  margin: 3rem 1.5rem 3rem 0;
-  transition: 0.1s ease-in-out;
-}
-.social-icons a:hover {
-  color: var(--font-color);
-  box-shadow: 0 0 25px var(--main-color);
-  background-color: var(--main-color);
-}
-
-.btn {
-  padding: 1rem 2.8rem;
-  background: var(--main-color);
-  box-shadow: 0 0 25px var(--main-color);
-  border-radius: 4rem;
-  font-size: 1.6rem;
-  color: var(--bg-color);
-  border: 2px solid transparent;
-  font-weight: 600;
-  transition: 0.3 ease-in-out;
-}
-.btn:hover {
-  box-shadow: 0 0 50px var(--main-color),
 }
 
 .profession-animation {
@@ -331,3 +296,67 @@ span#main-name {
   margin-top: 2rem;
 }
 
+/* footer settings */
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  padding: 50px 0;
+  background-color: var(--bg-color-sec);
+}
+
+.footer .social-icons {
+  display: inline-block;
+  text-align: center;
+  padding-bottom : 15px;
+  color: var(--main-color);
+  width: 100%;
+}
+
+.footer .social a {
+  font-size: 25px;
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.footer nav {
+  margin-top: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer nav a {
+  display: inline-block;
+  padding: 0 20px;
+  font-weight: 600;
+  color: var(--font-color);
+  border-bottom: 3px solid transparent;
+}
+
+
+.footer nav a:hover {
+  font-weight: 600;
+  color: var(--main-color);
+  transition: 0.2s ease;
+}
+
+.footer .copyright {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  
+}

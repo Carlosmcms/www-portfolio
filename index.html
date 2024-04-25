@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jhon C. Valencia - Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/buttons.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -43,22 +44,36 @@
   <!-- Skills and Experience must be contained in the Experience Section -->
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me</span></h2>
-    <form action="" id="contact-form">
+    <form action="" id="contact-form" class="contact-form">
       <div class="input-group">
         <div class="input-box">
-          <input type="text" placeholder="Full Name">
-          <input type="email" placeholder="Email">
+          <input type="text" class="contact-name" placeholder="Name">
+          <input type="email" class="contact-email" placeholder="Email" required>
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Phone Number">
-          <input type="text" placeholder="Subject">
+          <input type="number" class="contact-phone" placeholder="Phone Number">
+          <input type="text" class="contact-subject" placeholder="Subject" required>
         </div>
         <div class="input-group-2">
-          <textarea name="contact-message" id="contact-message" cols="30" rows="10" placeholder="How can I help you?"></textarea>
+          <textarea name="contact-message" id="contact-message" class="contact-message" cols="30" rows="10" placeholder="How can I help you?" required></textarea>
           <input type="submit" value="Send it up" class="btn">
         </div>
       </div>
     </form>
   </section>
+  <footer class="footer">
+    <div class="social-icons" id="footer-menu">
+      <a href="linked-in"><i class='bx bxl-linkedin' ></i></a>
+      <a href="github"><i class='bx bxl-github' ></i></a>
+    </div>
+    <nav class="footer-navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="copyright">Jhon Valencia | Universidad del Valle (2024)</p>
+  </footer>
 </body>
 </html>
