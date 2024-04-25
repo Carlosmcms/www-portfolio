@@ -247,6 +247,25 @@ section {
   gap: 1.5rem;
 }
 
+/* Experience section */
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+  gap: 2rem;
+}
+.experience ul li {
+  list-style-type: none;
+  color: var(--main-color);
+  font-size: 6rem;
+}
+
 /* Contact section */
 .contact {
   display: flex;
@@ -262,6 +281,7 @@ section {
   justify-content: center;
   gap: 3rem;
   margin: 5rem auto;
+  margin-top: 2rem;
   text-align: center;
 }
 
