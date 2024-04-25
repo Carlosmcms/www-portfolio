@@ -65,9 +65,8 @@ body {
   font-weight: 600;
   transition: 0.2s ease;
 }
-.navbar a:hover, .navbar a.active {
+.navbar a:hover {
   color: var(--main-color);
-  border-bottom: 3px solid var(--main-color);
 }
 
 #menu-icon {
