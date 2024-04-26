@@ -128,12 +128,12 @@
     <form action="" id="contact-form" class="contact-form">
       <div class="input-group">
         <div class="input-box">
-          <input type="text" class="contact-name" placeholder="Name">
-          <input type="email" class="contact-email" placeholder="Email" required>
+          <input type="text" id="contact-name" placeholder="Name">
+          <input type="email" id="contact-email" placeholder="Email" required>
         </div>
         <div class="input-box">
-          <input type="number" class="contact-phone" placeholder="Phone Number">
-          <input type="text" class="contact-subject" placeholder="Subject" required>
+          <input type="number" id="contact-phone" placeholder="Phone Number">
+          <input type="text" id="contact-subject" placeholder="Subject" required>
         </div>
         <div class="input-group-2">
           <textarea name="contact-message" id="contact-message" class="contact-message" cols="30" rows="10" placeholder="How can I help you?" required></textarea>
@@ -156,5 +156,8 @@
     </nav>
     <p class="copyright">Jhon Valencia | Universidad del Valle (2024)</p>
   </footer>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
