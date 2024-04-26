@@ -313,6 +313,12 @@ section {
   resize: none;
 }
 
+.contact form .input-box input:focus,
+.contact form textarea:focus {
+  box-shadow: 0 0 15px var(--main-color);
+  transition: 0.2s ease;
+}
+
 .contact form .btn {
   margin-top: 2rem;
 }
