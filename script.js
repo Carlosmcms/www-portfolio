@@ -23,7 +23,7 @@ const sendEmail = () => {
   }).then(
     message => {
       if (message == "OK") {
-        alert("Message sent successfully.")
+        alert(`Message sent successfully from ${contactName.value} (${contactEmail.value}.)`)
       }
     }
   );
