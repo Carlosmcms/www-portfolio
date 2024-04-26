@@ -265,6 +265,16 @@ section {
   font-size: 6rem;
 }
 
+/* Testimonials section */
+.testimonial-card img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 2px solid var(--main-color);
+  box-shadow: 0 0 10px var(--main-color);
+  margin-bottom: 20px;
+}
+
 /* Contact section */
 .contact {
   display: flex;
