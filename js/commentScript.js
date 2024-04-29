@@ -10,3 +10,5 @@ const fetchComments = () => {
     }
   })
 }
+
+fetchComments()

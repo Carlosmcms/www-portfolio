@@ -317,7 +317,6 @@ section {
 
 /* footer settings */
 .footer {
-  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
