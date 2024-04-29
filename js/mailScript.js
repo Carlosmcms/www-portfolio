@@ -14,10 +14,10 @@ const sendEmail = () => {
 
   Email.send({
     Host : "smtp.elasticemail.com",
-    Username : SMTP_MAIL,
-    Password : SMTP_PASSWORD,
-    To : SMTP_MAIL,
-    From : SMTP_MAIL,
+    Username : "uv374304816@hotmail.com",
+    Password : "62757E019C719A7D02290F2E75B30913465D",
+    To : "uv374304816@hotmail.com",
+    From : "uv374304816@hotmail.com",
     Subject : contactSubject.value,
     Body : bodyMessage
   }).then(
