@@ -27,8 +27,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      SMTP_MAIL: ${{ secrets.SMTP_MAIL }}
-      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
