@@ -239,12 +239,6 @@ section {
 .formal-education {
   margin-top: 1.5rem;
 }
-.certs-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  gap: 1.5rem;
-}
 
 /* Experience section */
 .experience {
